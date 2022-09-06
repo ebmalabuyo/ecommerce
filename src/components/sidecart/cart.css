@@ -1,14 +1,15 @@
 .cart-navigation {
     position: absolute;
-    width: 30%;
+    width: 35%;
     height: 100vh;
-    background-color: brown;
+    background-color: rgb(114, 35, 35);
     color: white;
     padding: 1rem;
     transition: right 0.5s ease;
     display: grid;
     gap: 1rem;
     grid-template-rows: 0.1fr 0.8fr 0.1fr;
+    top: 12%;
 }
 
 .cart-list {

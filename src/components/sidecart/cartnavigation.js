@@ -39,6 +39,7 @@ const CartNavigation = ({cartNav}) => {
           <div className="cart-summary">
             <hr></hr>
             <h2>Total: {dollarUSLocale.format(cartTotal)}</h2>
+            <button>Checkout</button>
           </div>
       </div>
     )
