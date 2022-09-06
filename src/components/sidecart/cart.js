@@ -7,13 +7,14 @@ const Cart = ({image, title, price, removeItem, id, updateItemQuantity, quantity
             <div>
                 <img className= "cart-img" src={image} alt=''></img>
             </div>
-            <p>{title}</p>
-            <h3>{price}</h3>
+            <h3>{title}</h3>
+            <h4>{price}</h4>
             <button
               onClick={() => updateItemQuantity(id, quantity - 1)}
             >
               -
             </button>
+            <p>{quantity}</p>
             <button
               onClick={() => updateItemQuantity(id, quantity + 1)}
             >
