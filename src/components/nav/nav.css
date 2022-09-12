@@ -1,4 +1,5 @@
 .navigation-container {
+    position: relative;
     display: flex;
     outline: rgb(114, 35, 35) solid;
     padding: 1.5rem;

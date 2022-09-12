@@ -1,7 +1,6 @@
 import "./index.css"
 import React from "react"
 import Nav from "./components/nav/nav"
-import CartNavigation from "./components/sidecart/cartnavigation"
 import Grid from "./components/itemcards/grid"
 import { CartProvider} from "react-use-cart"
 function App() {
@@ -30,10 +29,11 @@ function App() {
     <CartProvider className="App">
       <Nav
         toggleCart = {toggleCart}
-      />
-      <CartNavigation
         cartNav = {cartNav}
       />
+      {/* <CartNavigation
+        cartNav = {cartNav}
+      /> */}
       <Grid 
         data = {data}
         loading = {loading}
